@@ -24,8 +24,9 @@
         <option value="1" {{request()->status == 1 ? 'selected' : ''}}>Hiển Thị</option>
     </select>
     <button type="submit" class="btn btn-primary"><i class="fas fa-search"></i></button>
-    <a href="{{route('video.create')}}" class="btn btn-warning ml-2"><i class="fas fa-plus">Thêm mới</i></a>
+    <a href="{{route('video.create')}}" class="btn btn-success  ml-2"><i class="fas fa-plus"> Thêm mới</i></a> 
     <a href="" type="button" class="btn btn-danger btn-delete-all ml-2"><i class="fas fa-trash nav-icon"> Xóa lựa chọn </i></a>
+    <a href="{{route('video.trashed')}}" class="btn btn-warning ml-2">Thùng rác <i class="fas fa-trash-restore"></i></a>
 </form>
 <hr>
     <div class="container">
