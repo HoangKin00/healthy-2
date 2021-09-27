@@ -28,6 +28,7 @@ use App\Http\Controllers\UserController;
 Route::get('/', function () {
     return view('welcome');
 });
+///res
 
 //Đăng nhập admin
 Route::group(['prefix' => 'users'], function(){
