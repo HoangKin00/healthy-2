@@ -34,7 +34,7 @@
                     <div class="form-group">
                         <span class="btn btn-success col fileinput-button">
                             <i class="fas fa-plus"></i>
-                            <span>Add files</span>
+                            <span>Chọn ảnh</span>
                         </span>
                         <img src="{{url('public/uploads')}}/{{$ban->image}}" id="show_img" width="100%" height="100%">
                         <input type="file" name="file_upload" id="select_file" value="{{$ban->image}}" style="display:none">

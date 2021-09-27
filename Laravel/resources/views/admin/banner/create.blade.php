@@ -36,7 +36,7 @@
                     <div class="form-group">
                         <span class="btn btn-success col fileinput-button">
                             <i class="fas fa-plus"></i>
-                            <span>Add files</span>
+                            <span>Chọn ảnh</span>
                         </span>
                         <img src="https://rpfinancelk.com/wp-content/uploads/2020/12/no-image-available-icon-photo-camera-flat-vector-illustration-132483097.jpg" id="show_img" width="100%" >
                         <input type="file" name="file_upload" id="select_file" value="{{old('file_upload')}}" style="display:none">

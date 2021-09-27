@@ -12,6 +12,7 @@
                     <th >ID</th>
                     <th >Ảnh</th>
                     <th>Ngày thêm </th>
+                    <th>Ngày sửa </th>
                     <th></th>
                     
                 </tr>
@@ -22,6 +23,7 @@
                     <td >{{$logo->id}}</td>
                     <td ><img src="{{url('public/uploads')}}/{{$logo->image}}" alt="" width="150" height="150"></td>
                     <td >{{$logo->created_at}}</td>
+                    <td >{{$logo->updated_at}}</td>
                     <td >
                         
                             <a href="{{route('admin.logo.edit',$logo->id)}}" class="btn btn-primary btn-sm"><i class="fas fa-edit"> Sửa</i></a>

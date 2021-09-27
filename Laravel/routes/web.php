@@ -136,8 +136,8 @@ Route::group(['prefix' => 'admin','middleware'=>'check_admin'], function(){
         Route::get('create',[LogoController::class,'create'])->name('admin.logo.create');
         Route::post('store',[LogoController::class,'store'])->name('admin.logo.store');
 
-        Route::get('edit/{vid}',[LogoController::class,'edit'])->name('admin.logo.edit');
-        Route::put('update/{vid}',[LogoController::class,'update'])->name('admin.logo.update');
+        Route::get('edit/{logo}',[LogoController::class,'edit'])->name('admin.logo.edit');
+        Route::put('update/{logo}',[LogoController::class,'update'])->name('admin.logo.update');
 
     });
     Route::group(['prefix' => 'banner'], function(){
